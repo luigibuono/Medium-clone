@@ -1,0 +1,113 @@
+.ic{
+  border-radius: 50px;
+  padding: 0.3rem 1.2rem;
+  border: 2px solid gray;
+  border: 2px solid rgba(128, 128, 128, 0.2); /* Grigio con trasparenza */
+  background-color: #F2F2F2;
+}
+
+.card-container {
+  white-space: nowrap;
+  padding-bottom: 30px; /* Spazio sotto per le frecce */
+  overflow-x: auto; /* Mostra la barra di scorrimento solo quando necessario */
+  overflow-y: hidden; /* Nasconde la barra di scorrimento verticale */
+}
+
+.card-container::-webkit-scrollbar {
+  width: 8px; /* Larghezza della barra di scorrimento */
+  height: 8px;
+}
+
+.title1{
+  color: black;
+  font-size: 4.4rem;
+  font-weight: 800;
+
+}
+
+.it{
+display: flex;
+align-items: center;
+color: white;
+background-color: black;
+padding:  2rem;
+margin-bottom: 2rem;
+}
+
+.it2{
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: black;
+  margin-bottom: 2rem;
+  padding: 6rem;
+  position: relative;
+}
+
+.list-group-item .icon {
+  margin-right: 10px;
+}
+
+.list-group-item .text {
+  margin-left: auto;
+}
+
+.icon2{
+  display: flex;
+  align-items: center;
+}
+
+.at{
+  background-color: red;
+  border-radius: 50%;
+  padding: 3rem;
+  position: absolute; /* Posizionamento assoluto per l'elemento */
+  left: 0;
+  transform: translateX(-50%);
+  margin-left: 1rem;
+}
+
+.arrow {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent; /* Altezza della freccia */
+  border-bottom: 8px solid transparent; /* Altezza della freccia */
+  border-left: 20px solid white; /* Lunghezza della freccia e colore */
+  margin-right: 10px; /* Spaziatura tra l'icona e la freccia */
+}
+
+.line {
+  display: inline-block;
+  width: 79%; /* Lunghezza della linea */
+  height: 2px; /* Altezza della linea */
+  background-color: white; /* Colore della linea */
+}
+
+.accordion-collapse {
+  transition: height 2.5s ease; /* Modifica la velocità regolando il valore 0.5s */
+}
+
+
+
+
+/* According slowed */
+.accordion {
+  width: 100%;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+.accordion-header {
+  cursor: pointer;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.accordion-content {
+  overflow: hidden;
+}
+

@@ -1,0 +1,315 @@
+<div class="container">
+  <div class="row">
+    <div class="card-container" #cardContainer>
+      <div class="card-inner-container" >
+        <div class="d-inline-block m-2 mt-4"  *ngFor = "let voce of voce.voci;">
+            <h4 class="ic"> <i [ngClass]="voce.icon"></i> {{ voce.name }}</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Frecce di navigazione -->
+  <div class="d-flex align-self-end d-flex justify-content-end mb-4">
+    <div class="nav-arrow left" style="margin-right: 1rem;" (click)="scrollCards('left')"><i class="fa-solid fa-arrow-left"></i></div>
+    <div class="nav-arrow right" (click)="scrollCards('right')"><i class="fa-solid fa-arrow-right"></i></div>
+  </div>
+
+</div>
+
+<div class="container d-flex justify-content-center" style="margin-top: 5rem;">
+  <div class="row">
+    <div class="col-12 ">
+        <h2 class="title1"> Spring Boot</h2>
+        <span class="d-flex justify-content-center mt-4"><span style="margin-right: 2rem;">Topic </span> <li style="margin-right: 2rem;">8.2K Followers</li> <li> 16.8K Stories</li></span>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-4 mb-4">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card" >
+        <img src="../../../assets/gifHome.gif" class="card-img-top" alt="img">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card" >
+        <img src="../../../assets/gifHome.gif" class="card-img-top" alt="img">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-4 mb-4">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card" >
+        <img src="../../../assets/gifHome.gif" class="card-img-top" alt="img">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card" >
+        <img src="../../../assets/gifHome.gif" class="card-img-top" alt="img">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card" >
+        <img src="../../../assets/gifHome.gif" class="card-img-top" alt="img">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-4 mb-4">
+  <div class="row">
+    <div class="col-md-6">
+        <ul class="list-group">
+          <li class="list-group-item it">
+            <span class="icon"><i class="fa-solid fa-cat"></i></span>
+            <span class="text">An item</span>
+          </li>
+          <li class="list-group-item it">
+            <span class="icon"><i class="fa-solid fa-cat"></i></span>
+            <span class="text">A second item</span>
+          </li>
+          <li class="list-group-item it">
+            <span class="icon"><i class="fa-solid fa-cat"></i></span>
+            <span class="text">A third item</span>
+          </li>
+          <li class="list-group-item it">
+            <span class="icon"><i class="fa-solid fa-cat"></i></span>
+            <span class="text">A fourth item</span>
+          </li>
+          <li class="list-group-item it">
+            <span class="icon"><i class="fa-solid fa-cat"></i></span>
+            <span class="text">And a fifth one</span>
+          </li>
+        </ul>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-4 mb-4">
+  <div class="row">
+      <div class="col-6">
+        <ul class="">
+          <li class="list-group-item it2">
+            <span class="icon2 "><i class="fa-solid fa-cat at"></i></span>
+            <span class="line"></span>
+            <span class="arrow"></span>
+            <span class="text">I Love Angular</span>
+          </li>
+          <li class="list-group-item it2">
+            <span class="icon2 "><i class="fa-solid fa-cat at"></i></span>
+            <span class="line"></span>
+            <span class="arrow"></span>
+            <span class="text">I Love Angular</span>
+          </li>
+          <li class="list-group-item it2">
+            <span class="icon2 "><i class="fa-solid fa-cat at"></i></span>
+            <span class="line"></span>
+            <span class="arrow"></span>
+            <span class="text">I Love Angular</span>
+          </li>
+          <li class="list-group-item it2">
+            <span class="icon2 "><i class="fa-solid fa-cat at"></i></span>
+            <span class="line"></span>
+            <span class="arrow"></span>
+            <span class="text">I Love Angular</span>
+          </li>
+          <li class="list-group-item it2">
+            <span class="icon2 "><i class="fa-solid fa-cat at"></i></span>
+            <span class="line"></span>
+            <span class="arrow"></span>
+            <span class="text">I Love Angular</span>
+          </li>
+        </ul>
+      </div>
+  </div>
+</div>
+
+<div class="container mt-4 mb-4">
+  <div class="row">
+    <div class="col-6">
+
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" (click)="toggleAccordion('panelsStayOpen-collapseOne')" [attr.aria-expanded]="isAccordionOpen === 'panelsStayOpen-collapseOne' ? 'true' : 'false'" aria-controls="panelsStayOpen-collapseOne">
+              Fisarmonica Articolo n.1
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" [ngClass]="{'show': isAccordionOpen === 'panelsStayOpen-collapseOne'}">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" (click)="toggleAccordion('panelsStayOpen-collapseTwo')" [attr.aria-expanded]="isAccordionOpen === 'panelsStayOpen-collapseTwo' ? 'true' : 'false'" aria-controls="panelsStayOpen-collapseTwo">
+              Fisarmonica Articolo n.2
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" [ngClass]="{'show': isAccordionOpen === 'panelsStayOpen-collapseTwo'}">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" (click)="toggleAccordion('panelsStayOpen-collapseThree')" [attr.aria-expanded]="isAccordionOpen === 'panelsStayOpen-collapseThree' ? 'true' : 'false'" aria-controls="panelsStayOpen-collapseThree">
+              Fisarmonica Articolo n.3
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse slow-transition" [ngClass]="{'show': isAccordionOpen === 'panelsStayOpen-collapseThree', 'slow-transition': isAccordionOpen === 'panelsStayOpen-collapseThree'}">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container mt-4 mb-4">
+  <div class="row">
+    <div class="col-6">
+
+      <mat-accordion>
+        <mat-expansion-panel (opened)="panelOpenState = true"
+                            (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title style="padding-top: 2rem; padding-bottom: 2rem;">
+              Self aware panel
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <p class="" style="padding-top: 2rem; padding-bottom: 2rem;">I'm visible because I am open</p>
+        </mat-expansion-panel>
+      </mat-accordion>
+
+      <mat-accordion>
+        <mat-expansion-panel (opened)="panelOpenState = true"
+                            (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title style="padding-top: 2rem; padding-bottom: 2rem;">
+              Self aware panel
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <p class="" style="padding-top: 2rem; padding-bottom: 2rem;">I'm visible because I am open</p>
+        </mat-expansion-panel>
+      </mat-accordion>
+
+      <mat-accordion>
+        <mat-expansion-panel [@expandCollapse]="panelOpenState ? 'expanded' : 'collapsed'" (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title style="padding-top: 2rem; padding-bottom: 2rem;">
+              Self aware panel
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <p class="" style="padding-top: 2rem; padding-bottom: 2rem;">I'm visible because I am open</p>
+        </mat-expansion-panel>
+      </mat-accordion>
+
+
+
+    </div>
+  </div>
+</div>
+
+
+<div class="container mt-4 mb-4">
+  <div class="row">
+    <div class="col-6">
+
+
+      <div class="accordion">
+        <div class="accordion-item" *ngFor="let panel of panels" [class.open]="panel.isOpen" (click)="togglePanel(panel)">
+          <div class="accordion-header">
+            <h2>{{ panel.title }}</h2>
+          </div>
+          <div class="accordion-content" [@openClose]="panel.isOpen ? 'open' : 'closed'">
+            <p>{{ panel.content }}</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div></div></div>
